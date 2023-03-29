@@ -1,0 +1,77 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/rhyme/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/rhyme
+dbus-update-activation-environment: setting USER=rhyme
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/rhyme
+dbus-update-activation-environment: setting HOME=/home/rhyme
+dbus-update-activation-environment: setting GOROOT=/usr/local/go
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=rhyme
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1001
+dbus-update-activation-environment: setting XAUTHORITY=/home/rhyme/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+Gtk-Message: 06:00:28.403: Failed to load module "atk-bridge"
+
+(xfce4-session:1329): xfce4-session-WARNING **: 06:00:28.588: xfsm_manager_load_session: Something wrong with /home/rhyme/.cache/sessions/xfce4-session-ip-10-199-113-182:0, Does it exist? Permissions issue?
+** Message: 06:00:28.629: couldn't access control socket: /run/user/1001/keyring/control: No such file or directory
+Gtk-Message: 06:00:28.731: Failed to load module "atk-bridge"
+Gtk-Message: 06:00:28.812: Failed to load module "atk-bridge"
+Gtk-Message: 06:00:28.821: Failed to load module "atk-bridge"
+Gtk-Message: 06:00:28.843: Failed to load module "atk-bridge"
+Gtk-Message: 06:00:28.845: Failed to load module "atk-bridge"
+
+(xfce4-session:1329): xfce4-session-WARNING **: 06:00:28.863: Unable to launch "update-notifier" (specified by autostart/update-notifier.desktop): Failed to execute child process “update-notifier” (No such file or directory)
+Gtk-Message: 06:00:29.283: Failed to load module "atk-bridge"
+Gtk-Message: 06:00:29.791: Failed to load module "atk-bridge"
+
+(xfsettingsd:1385): xfsettingsd-WARNING **: 06:00:29.816: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:1368): xfwm4-WARNING **: 06:00:29.984: Error opening /dev/dri/card0: No such file or directory
+
+(polkit-gnome-authentication-agent-1:1397): GLib-CRITICAL **: 06:00:30.130: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1397): polkit-gnome-1-WARNING **: 06:00:30.130: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:1384): Gtk-WARNING **: 06:00:30.427: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1456): Gtk-WARNING **: 06:00:30.684: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+[1967:1967:0329/060305.417604:ERROR:edid_parser.cc(102)] Too short EDID data: manufacturer id
+[1997:1997:0329/060306.052020:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+[1967:1967:0329/060325.914919:ERROR:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+", source: https://ogs.google.com/widget/app/so?awv2=1&origin=chrome-search%3A%2F%2Flocal-ntp&cn=app&pid=1&spid=243&hl=en (0)
+[2453:2453:0329/063433.273699:ERROR:edid_parser.cc(102)] Too short EDID data: manufacturer id
+[2565:1:0329/063442.530619:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2565:1:0329/063442.616057:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2617:1:0329/063516.375326:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+(xfce4-terminal:2409): Gdk-CRITICAL **: 06:40:12.535: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
